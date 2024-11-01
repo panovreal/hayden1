@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    width: 70%;
+    margin:100px 0 0 200px;
+    justify-content: center;
+    gap: 10px;
+    height: 450px;
+}
+.container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.684);
+    transition: all ease-in-out 0.5s;
+}
+.container img:hover {
+    width: 25%;
+}
